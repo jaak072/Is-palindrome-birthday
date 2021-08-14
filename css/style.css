@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    height: 10vh;
+}
+
+main{
+    width: 80vw;
+    height: 65vh;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input{
+    margin-top: 20px;
+    width: 50vw;
+    padding: 10px;
+    font-size: x-large;
+    color: teal;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px 20px;
+    font-size: x-large;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#output{
+    margin-top: 40px;
+    font-size: 1.4rem;
+}
+#img-loader{
+    display: block;
+    margin: auto;
+}
+.footer{
+    height: 15vh;
+    padding: 10px;
+    background-color: blue; 
+    color: #fff;  
+}
+#footer-contain{
+    width: 80%;
+    margin: auto;
+    color: rgb(215, 219, 223);
+}
+.footer h6{
+    font-size: larger;
+    margin-bottom: 0;
+}
+
+.text-justify{
+    font-style: oblique;
+    
+    margin-top: 2px;
+    font-size: unset;
+}
+
+.copyright-text{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.copyright-text a{
+    text-decoration: none;
+    color: yellow;
+}
+#social-link{
+    text-align: center;
+}
+.social-link{
+    list-style: none;
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-link li i{
+    text-shadow: 1px 1px 1px rgb(0, 60, 255);
+    color: #fff;
+}
